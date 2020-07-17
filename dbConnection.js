@@ -1,11 +1,11 @@
 // Conexão com o banco de dados mysql
 
 const myqsl = require('promise-mysql');
-const { try } = require('bluebird');
+
 
 const dbConfig = {
-    user: "todolist",
-    password: "6o4r1g45A.",
+    user: "root",
+    password: "",
     database: "todolist",
     host: "localhost",
     connectionLimit: 10
